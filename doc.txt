@@ -24,15 +24,25 @@ https://stackoverflow.com/questions/tagged/rust  ==> stack overflow
 
 https://www.rust-lang.org/learn  ===> Document page.
 
+https://doc.rust-lang.org/stable/rust-by-example/primitives.html  ==> program with description
+
 https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
 Topic Cover In above Book:
 ---------------------------
 1> Common Programming Concepts (chapter - 3)
+2> To start 3.2
+3>
 
-TOPIC COVER:
--------------
+https://doc.rust-lang.org/stable/rust-by-example/primitives.html
+TOPIC COVERED IN Prgram from above url:
+-----------------------------------------
+1> To start 2.1
+
+TOPIC COVER VIDEO:
+-------------------
 1> Number on the Computer (chapter-6)
-
+2> To start: chapter - 9
+3>
 /////////////////////////////////////////////////
 
 Steps For install RUST:
@@ -41,7 +51,11 @@ https://www.rust-lang.org/tools/install
 
 rustup update  ===> Update to latest rust version
 rustup self uninstall  ==> For complete uninstall rust
-
+//////////////////////////////////////////////////////////
+3rd-JAN-2021:
+--------------
+cargo project steps:
+---------------------
 cargo new satya --bin  ===> This will create sample hellw world project
 cargo run ===> will run and create all the dependecy and execute code and provides o/p
 cargo build --release  ===> This will create release build
@@ -55,3 +69,18 @@ cargo run --bin hello   ===> Use this if you have 2 binary in ur project. If u w
 NOTE: use repetedly cargo check either ur program compile successfully or not.
 
 rustc -C prefer-dynamic=yes 1.rs  ===> Run this methode for dynamic link but after that binary is not running.
+/////////////////////////////////////////////////////////////
+4th-JAN-2021:
+--------------
+https://doc.rust-lang.org/book/appendix-01-keywords.html  ==> List of key words.
+We can not use keywords in function name and variable name. If realsy we want to use key word as a function name we have to use Raw Identifiers methode which one describe above link.
+Example:
+---------
+fn match()  ==> This is error becz we used match key word as a function name.
+fn r#match()  ===> This syntax ll not give error. This is called raw identifier
+
+In Rust We have called shadow concept means we can assign same varibale using let multiple times.
+Example:
+---------
+
+
