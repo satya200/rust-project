@@ -28,4 +28,44 @@ fn main() {
     //const MAX:u32 = 90; // reddefine error
     let r#let = 43; //Raw Identifiers  using r# we can use keywords as a varibale
     println!("let = {} and size is {}", r#let, mem::size_of_val(&r#let));
+
+    let cub_test = 3;
+    let a_cub = i32::pow(cub_test, 3); // This is the methode use for calculating cube
+    println!("a_cub = {}", a_cub);
+
+    let b_f  = 2.5;
+    let b_f_cub = f64::powi(b_f, 3);
+    println!("b_f = {}", b_f_cub);
+
+    /* Below x is a tuple which is compound type */
+    let mut x: (i32, f32, u8, u16) = (500, 6.4, 1, 2344);
+
+    let tup_0 = x.0;  // Using this we can get x.0 from;
+
+    let tup_1 = x.1;
+
+    let tup_2 = x.2;
+    
+    let tup_3 = x.3;
+
+    x.0 = 100;// If x is mutable this ll work or compilation error
+
+    println!("tuple ele {},{},{},{} and using var {}, {}, {}, {}", x.0, x.1, x.2, x.3, tup_0, tup_1, tup_2, tup_3);
+
+    println!("All tuple single state: {:?}", x); // Single statment to print all tuple element. NOTE: Big tuple ll not print
+    let tup_s = (1u8, 2i32); // This is new type define
+    println!("tup  {}", tup_s.0);
+    
+    let tuple_of_tuples = ((1u8, 2u16, 2u32), (4u64, -1i8), -2i16);
+    println!("long tup {:?}", tuple_of_tuples);
+    
+    let array = [1, 2, 3, 4, 5];
+    println!("array {:?}", array);
+
+    let array1 = [6; 5]; // REMEBER This is semi colon and all value assign to 5
+    println!("array1 {:?}", array1);
+
+    let array2 : [i32; 5] = [7, 2, 3, 8, 5]; // REMEBER This is semi colon and all value assign to 5
+    println!("array1 {:?}", array2);
+    
 }

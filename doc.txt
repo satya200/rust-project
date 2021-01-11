@@ -15,6 +15,8 @@ https://stackoverflow.com/questions/65549851/hello-world-program-binary-file-siz
 
 https://users.rust-lang.org/t/rust-hello-world-binary-file-size-is-huge/53620  ===> Question ask in rust community
 
+https://internals.rust-lang.org/  ==> rust internal team
+
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -26,23 +28,33 @@ https://www.rust-lang.org/learn  ===> Document page.
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives.html  ==> program with description
 
+https://rustc-dev-guide.rust-lang.org/index.html ===> compilation and compiler explanation
+
 https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
 Topic Cover In above Book:
 ---------------------------
 1> Common Programming Concepts (chapter - 3)
 2> To start 3.2
-3>
+3> To start 3.3
+4> To start 3.3
+5> To start chapter 4
+6> To start 
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives.html
 TOPIC COVERED IN Prgram from above url:
 -----------------------------------------
 1> To start 2.1
+2> To start 2.2
+3> To start 2.3
+4> To start 
 
 TOPIC COVER VIDEO:
 -------------------
 1> Number on the Computer (chapter-6)
 2> To start: chapter - 9
-3>
+3> To start: chapter - 10
+4> To start: chapter - 13
+5> To start: Chapter - 18
 /////////////////////////////////////////////////
 
 Steps For install RUST:
