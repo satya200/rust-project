@@ -38,7 +38,15 @@ Topic Cover In above Book:
 3> To start 3.3
 4> To start 3.3
 5> To start chapter 4
-6> To start 
+6> To start 4.2
+7> To Start 4.3
+8> To Start 5.1
+9> To Start 5.3
+11> To Start
+12> To Start
+13> To Start
+14> To Start
+15> To Start 
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives.html
 TOPIC COVERED IN Prgram from above url:
@@ -54,7 +62,12 @@ TOPIC COVER VIDEO:
 2> To start: chapter - 9
 3> To start: chapter - 10
 4> To start: chapter - 13
-5> To start: Chapter - 18
+5> To start: Chapter - 18  (Pending need to implement later)
+6> To start: Chapter - 21
+7> To Start: Chapter - 
+8> To Start: Chapter -
+9> To Start: Chapter -
+10> To Start: Chapter -
 /////////////////////////////////////////////////
 
 Steps For install RUST:
