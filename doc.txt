@@ -30,6 +30,8 @@ https://doc.rust-lang.org/stable/rust-by-example/primitives.html  ==> program wi
 
 https://rustc-dev-guide.rust-lang.org/index.html ===> compilation and compiler explanation
 
+https://doc.rust-lang.org/nomicon/vec.html  ==> Important url after book need to be read.
+
 https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
 Topic Cover In above Book:
 ---------------------------
@@ -43,9 +45,9 @@ Topic Cover In above Book:
 8> To Start 5.1
 9> To Start 5.3
 11> To Start 6
-12> To Start
-13> To Start
-14> To Start
+12> To Start 7
+13> To Start 7.4
+14> To Start 8.2 (Reading element from vector)
 15> To Start 
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives.html
