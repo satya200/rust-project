@@ -65,7 +65,27 @@ fn main() {
     let array1 = [6; 5]; // REMEBER This is semi colon and all value assign to 5
     println!("array1 {:?}", array1);
 
-    let array2 : [i32; 5] = [7, 2, 3, 8, 5]; // REMEBER This is semi colon and all value assign to 5
+    let array2 : [i32; 5] = [7, 2, 3, 8, 5]; // REMEBER This is semi colon
     println!("array1 {:?}", array2);
-    
+    // array comparision
+    if array2 == [7,2,3,8,5] {
+	println!("array2 is same");
+    }
+    if array2 != [8,2,3,8,5] {
+	println!("array2 is not same");
+    }
+    for i in 0..array2.len() {
+	println!("arra2 element {} = {}", i, array2[i]);
+    }
+    // 2D Array 2 rows and 3 coloms
+    let mtx:[[f32;3]; 2] = [[1.0, 2.0, 3.0],[4.0, 5.0, 6.0]];
+    println!("matrix print {:?}", mtx);
+    // Printing diagonal of the matrix
+    for i in 0..mtx.len() {
+	for j in 0..mtx[i].len() {
+	    if i == j {
+		println!("mtx[{}][{}] = {}", i, j, mtx[i][j]);
+	    }
+	}
+    }
 }

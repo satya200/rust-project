@@ -3,6 +3,8 @@ This is use for store different types of rust program
 
 cargo build -v ==> to see the log
 
+xxd satya.db  ===> print file value in hexdump
+
 Important Link:
 ----------------
 1> https://doc.rust-lang.org/rustc/codegen-options/index.html  ==> Link for check list of rusc options

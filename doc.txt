@@ -7,6 +7,12 @@ https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html  ==> book
 https://doc.rust-lang.org/stable/rust-by-example/  ===> program with explanation
 https://doc.rust-lang.org/cargo/  ===> cargo book
 
+Good Link for Future Study:
+----------------------------
+1> https://www.konsulko.com/using-rust-with-yocto-project-by-paul-barker/
+2> https://docs.rust-embedded.org/discovery/05-led-roulette/index.html
+3> https://docs.rust-embedded.org/book/
+
 ////////////////////////////////////////////////////////////////////////////
 MY STACK-OVERFLOW QUESTIONS LINK:
 ----------------------------------
@@ -32,6 +38,11 @@ https://rustc-dev-guide.rust-lang.org/index.html ===> compilation and compiler e
 
 https://doc.rust-lang.org/nomicon/vec.html  ==> Important url after book need to be read.
 
+https://doc.rust-lang.org/stable/std/index.html  ===> std standard lib
+
+https://doc.rust-lang.org/stable/  ==> from this url we can go to any other url
+https://www.youtube.com/watch?v=WnWGO-tLtLA  ===> youtube database project
+
 https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
 Topic Cover In above Book:
 ---------------------------
@@ -47,8 +58,13 @@ Topic Cover In above Book:
 11> To Start 6
 12> To Start 7
 13> To Start 7.4
-14> To Start 8.2 (Reading element from vector)
-15> To Start 
+14> To Start 8.2 (Reading element from vector) https://doc.rust-lang.org/std/vec/struct.Vec.html ==> importand need to check later
+15> To Start 8.3 done.
+16> To Start
+
+Start Revision:
+----------------
+1> 
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives.html
 TOPIC COVERED IN Prgram from above url:
@@ -66,8 +82,7 @@ TOPIC COVER VIDEO:
 4> To start: chapter - 13
 5> To start: Chapter - 18  (Pending need to implement later)
 6> To start: Chapter - 21
-7> To Start: Chapter - 
-8> To Start: Chapter -
+7> To Start: Chapter - 30  thecyTo Start: Chapter -
 9> To Start: Chapter -
 10> To Start: Chapter -
 /////////////////////////////////////////////////
