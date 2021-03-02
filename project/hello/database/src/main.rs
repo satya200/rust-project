@@ -11,6 +11,7 @@ struct Database {
 //Below is methode for above structure
 impl Database {
     fn new() -> Result<Database, std::io::Error> {
+        let mut map = HashMap::new();
         // Read the data from File
         let contents = match std::fs::read_to_string("satya.db") {
             Ok(Readdata) => { Readdata }
@@ -23,9 +24,15 @@ impl Database {
         //above error checking. GOOD FOR RUST
         // Parse the data
         // Populate out data
-        Ok(Database {
-            map: HashMap::new(), // This new is present inside HashMap and it is just intialization
-        })
+        for line in contents.lines() {
+            let mut chunk = line.splitn(2, '\t');
+            let key: &str = chunk.next().expect("No key");
+            let value: &str = chunk.next().expect("No value");
+            map.insert(key.to_owned(), value.to_owned());// Inset key and value inside hashmap
+            //let v = map.get(key);
+            //println!("v = {:?}", v);
+        }
+        Ok(Database { map: map }) // This new is present inside HashMap and it is just intialization
     }
 }
 
@@ -50,4 +57,10 @@ fn main() {
         }
     }
     let database = Database::new().expect("data base file not present"); // Calling new function present in Database methode
+    let v = database.map.get(&key);
+    match v {
+        Some(v) => println!("key = {} and value = {}", key, v),
+        None => println!("Invalid Key name"),
+    }
+    
 }

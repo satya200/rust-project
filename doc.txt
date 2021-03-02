@@ -41,7 +41,11 @@ https://doc.rust-lang.org/nomicon/vec.html  ==> Important url after book need to
 https://doc.rust-lang.org/stable/std/index.html  ===> std standard lib
 
 https://doc.rust-lang.org/stable/  ==> from this url we can go to any other url
-https://www.youtube.com/watch?v=WnWGO-tLtLA  ===> youtube database project
+https://www.youtube.com/watch?v=WnWGO-tLtLA  ===> youtube database project ==> done
+https://www.youtube.com/watch?v=lLWchWTUFOQ   ==> pending
+https://www.youtube.com/watch?v=MSi3E5Z8oRw   ==> pending
+https://www.youtube.com/watch?v=tM2r9HD4ivQ  ===> Pending
+https://www.youtube.com/watch?v=IiDHTIsmUi4  ===> Pending
 
 https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
 Topic Cover In above Book:
