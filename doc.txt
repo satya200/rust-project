@@ -42,7 +42,8 @@ https://doc.rust-lang.org/stable/std/index.html  ===> std standard lib
 
 https://doc.rust-lang.org/stable/  ==> from this url we can go to any other url
 https://www.youtube.com/watch?v=WnWGO-tLtLA  ===> youtube database project ==> done
-https://www.youtube.com/watch?v=lLWchWTUFOQ   ==> pending
+https://www.youtube.com/watch?v=lLWchWTUFOQ   ==> Started ==> 33MIn ==> 1h.30  done need to check ==> Done
+https://www.youtube.com/watch?v=MSi3E5Z8oRw&t=33s  ==> RUST LIFE TIME ===> 
 https://www.youtube.com/watch?v=MSi3E5Z8oRw   ==> pending
 https://www.youtube.com/watch?v=tM2r9HD4ivQ  ===> Pending
 https://www.youtube.com/watch?v=IiDHTIsmUi4  ===> Pending

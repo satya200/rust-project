@@ -49,4 +49,13 @@ Methods are similar to functions: they’re declared with the fn keyword and the
 16> What is the meaning of instance?
 ANS: Instance is normaly used in class concept. In calss we have data member and memberfunctions and we use to represent particular object      ----	behaviour and properties. And we are defining one object to mention a particular behaviout in constructure, which is called instance.
 
-17> 
+17> What is the difference between &str and String?
+Ans:
+String menas it hold data, length of data and capacity. In case String we can grow the string and memroy allocated in heap. But &str having only view of data (point to data) and length. Mostly this is borrow of one String
+
+18> 
+
+OWNER SHIP:
+------------
+1> If we use & that menas we are borrowing ownership. not moving ownership.
+2> 

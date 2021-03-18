@@ -8,7 +8,8 @@ struct Database {
     map: HashMap<String, String>,
 }
 
-//Below is methode for above structure
+//Below is methode for above structure. But new is not a method why becz we do not have &self at
+//1st argument
 impl Database {
     fn new() -> Result<Database, std::io::Error> {
         let mut map = HashMap::new();
@@ -34,6 +35,34 @@ impl Database {
         }
         Ok(Database { map: map }) // This new is present inside HashMap and it is just intialization
     }
+    // Below is methode
+    fn insert(&mut self, key: String, value: String) {
+        self.map.insert(key, value);
+    }
+    // flush data inside file
+    /*fn flush(self) -> std::io::Result<()> {
+        let mut contents: String = String::new();
+        for pairs in self.map {
+            let kvpair: String = format!("{}\t{}\n", pairs.0, pairs.1);
+            contents.push_str(&kvpair);
+        }
+        std::fs::write("satya.db", contents)
+    }*/
+}
+
+impl Drop for Database {
+    fn drop(&mut self) {
+        println!("INSIDE DROP CALLED");
+        let mut contents: String = String::new();
+        for (key, value) in &self.map {
+            contents.push_str(key);
+            contents.push('\t');
+            contents.push_str(value);
+            contents.push('\n');
+        }
+        // We havd use _ variable to ignore warnings below
+        let _ = std::fs::write("satya.db", contents);
+    }
 }
 
 fn main() {
@@ -47,20 +76,24 @@ fn main() {
     // Creating key value inside a string using format macro
     // format macro takes varibale number of argument
     let content: String = format!("{}\t{}\n", key, value);
-    let write_result = std::fs::write("satya.db", content);// We can use unwrap() also to handle error.
+    //std::fs::write("satya.db", content).unwrap();// We can use unwrap() also to handle error.
+    //let write_result = std::fs::write("satya.db", content).unwrap();// We can use unwrap() also to handle error.
     // Below is pattern matching method
-    match write_result {
+    /*match write_result {
         Ok(()) => {
             println!("file write success");
         } Err(e) => {
             println!("file write failed");
         }
-    }
-    let database = Database::new().expect("data base file not present"); // Calling new function present in Database methode
-    let v = database.map.get(&key);
+    }*/
+    let mut database = Database::new().expect("data base file not present"); // Calling new function present in Database methode
+    /*let v = database.map.get(&key);
     match v {
         Some(v) => println!("key = {} and value = {}", key, v),
         None => println!("Invalid Key name"),
-    }
-    
+    }*/
+    database.insert(key.to_uppercase(), value.clone()); // Need to check later // clone means it will copy the value and return ownership
+    //Database::insert(self: database, key, value);// Above and this both are correct. Need to check
+    database.insert(key, value);
+    //database.flush().expect("Flush having Excepsion");
 }
