@@ -16,9 +16,6 @@ Good Link for Future Study:
 ////////////////////////////////////////////////////////////////////////////
 MY STACK-OVERFLOW QUESTIONS LINK:
 ----------------------------------
-https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html
-https://stackoverflow.com/questions/65549851/hello-world-program-binary-file-size-more-in-case-of-rust
-
 https://users.rust-lang.org/t/rust-hello-world-binary-file-size-is-huge/53620  ===> Question ask in rust community
 
 https://internals.rust-lang.org/  ==> rust internal team
