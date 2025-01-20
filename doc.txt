@@ -1,0 +1,133 @@
+https://www.rust-lang.org/  ==> Main website
+https://play.rust-lang.org/  ==> On line compiler
+
+https://users.rust-lang.org/  ==> Users forum
+
+https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html  ==> book
+https://doc.rust-lang.org/stable/rust-by-example/  ===> program with explanation
+https://doc.rust-lang.org/cargo/  ===> cargo book
+
+Good Link for Future Study:
+----------------------------
+1> https://www.konsulko.com/using-rust-with-yocto-project-by-paul-barker/
+2> https://docs.rust-embedded.org/discovery/05-led-roulette/index.html
+3> https://docs.rust-embedded.org/book/
+
+////////////////////////////////////////////////////////////////////////////
+MY STACK-OVERFLOW QUESTIONS LINK:
+----------------------------------
+https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html
+https://stackoverflow.com/questions/65549851/hello-world-program-binary-file-size-more-in-case-of-rust
+
+https://users.rust-lang.org/t/rust-hello-world-binary-file-size-is-huge/53620  ===> Question ask in rust community
+
+https://internals.rust-lang.org/  ==> rust internal team
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+https://stackoverflow.com/users/2791083/user2791083  ==> Stack over flow link
+
+https://stackoverflow.com/questions/tagged/rust  ==> stack overflow
+
+https://www.rust-lang.org/learn  ===> Document page.
+
+https://doc.rust-lang.org/stable/rust-by-example/primitives.html  ==> program with description
+
+https://rustc-dev-guide.rust-lang.org/index.html ===> compilation and compiler explanation
+
+https://doc.rust-lang.org/nomicon/vec.html  ==> Important url after book need to be read.
+
+https://doc.rust-lang.org/stable/std/index.html  ===> std standard lib
+
+https://doc.rust-lang.org/stable/  ==> from this url we can go to any other url
+https://www.youtube.com/watch?v=WnWGO-tLtLA  ===> youtube database project ==> done
+https://www.youtube.com/watch?v=lLWchWTUFOQ   ==> Started ==> 33MIn ==> 1h.30  done need to check ==> Done
+https://www.youtube.com/watch?v=MSi3E5Z8oRw&t=33s  ==> RUST LIFE TIME ===> 
+https://www.youtube.com/watch?v=MSi3E5Z8oRw   ==> pending
+https://www.youtube.com/watch?v=tM2r9HD4ivQ  ===> Pending
+https://www.youtube.com/watch?v=IiDHTIsmUi4  ===> Pending
+
+https://doc.rust-lang.org/book/  ===> This is the book. You will get this url from above url.
+Topic Cover In above Book:
+---------------------------
+1> Common Programming Concepts (chapter - 3)
+2> To start 3.2
+3> To start 3.3
+4> To start 3.3
+5> To start chapter 4
+6> To start 4.2
+7> To Start 4.3
+8> To Start 5.1
+9> To Start 5.3
+11> To Start 6
+12> To Start 7
+13> To Start 7.4
+14> To Start 8.2 (Reading element from vector) https://doc.rust-lang.org/std/vec/struct.Vec.html ==> importand need to check later
+15> To Start 8.3 done.
+16> To Start
+
+Start Revision:
+----------------
+1> 
+
+https://doc.rust-lang.org/stable/rust-by-example/primitives.html
+TOPIC COVERED IN Prgram from above url:
+-----------------------------------------
+1> To start 2.1
+2> To start 2.2
+3> To start 2.3
+4> To start 
+
+TOPIC COVER VIDEO:
+-------------------
+1> Number on the Computer (chapter-6)
+2> To start: chapter - 9
+3> To start: chapter - 10
+4> To start: chapter - 13
+5> To start: Chapter - 18  (Pending need to implement later)
+6> To start: Chapter - 21
+7> To Start: Chapter - 30  thecyTo Start: Chapter -
+9> To Start: Chapter -
+10> To Start: Chapter -
+/////////////////////////////////////////////////
+
+Steps For install RUST:
+-----------------------
+https://www.rust-lang.org/tools/install
+
+rustup update  ===> Update to latest rust version
+rustup self uninstall  ==> For complete uninstall rust
+//////////////////////////////////////////////////////////
+3rd-JAN-2021:
+--------------
+cargo project steps:
+---------------------
+cargo new satya --bin  ===> This will create sample hellw world project
+cargo run ===> will run and create all the dependecy and execute code and provides o/p
+cargo build --release  ===> This will create release build
+cargo run --bin hello   ===> Use this if you have 2 binary in ur project. If u want 2 binary inside cargo put ur other binary inside src/bin folder and run the above command.
+
+    We can build a project using cargo build.
+    We can build and run a project in one step using cargo run.
+    We can build a project without producing a binary to check for errors using cargo check.
+    Instead of saving the result of the build in the same directory as our code, Cargo stores it in the target/debug directory.
+
+NOTE: use repetedly cargo check either ur program compile successfully or not.
+
+rustc -C prefer-dynamic=yes 1.rs  ===> Run this methode for dynamic link but after that binary is not running.
+/////////////////////////////////////////////////////////////
+4th-JAN-2021:
+--------------
+https://doc.rust-lang.org/book/appendix-01-keywords.html  ==> List of key words.
+We can not use keywords in function name and variable name. If realsy we want to use key word as a function name we have to use Raw Identifiers methode which one describe above link.
+Example:
+---------
+fn match()  ==> This is error becz we used match key word as a function name.
+fn r#match()  ===> This syntax ll not give error. This is called raw identifier
+
+In Rust We have called shadow concept means we can assign same varibale using let multiple times.
+Example:
+---------
+
+
