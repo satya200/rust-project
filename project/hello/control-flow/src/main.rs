@@ -53,6 +53,17 @@ fn print_array() {
     }
 }
 
+fn fibonaci_series(num: i32) {
+    let mut index: i32 = 0;
+    let mut fibo_num: i32 = 0;
+    println!("Going to print fibonaci series of {} numbers", num);
+    while index < num {
+	fibo_num = fibo_num + index;
+	println!("fibonaci series of {} numbers", fibo_num);
+        index = index + 1;
+    }
+}
+
 fn my_match() {
     let code = 30;
     // match statement is very power ful tool in RUST. It covers all condition and check at compile time
@@ -71,4 +82,5 @@ fn main() {
     while_for_loop();
     print_array();
     my_match();
+    fibonaci_series(5);
 }
