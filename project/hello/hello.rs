@@ -1,9 +1,9 @@
 fn main() {
     /*This println is not a function it is macro. "!" symbol represent
-     * that use println macro insted of println function and ln means it will 
+     * that use println macro insted of println function and ln means it will
      * add mew line at the end */
     println!("Hellow World\nHappy New Year 2021");
-    /* Diff bet println and print is print ll not add new line at the end. You need 
+    /* Diff bet println and print is print ll not add new line at the end. You need
      * add new line manually at last below is the example */
     print!("Hellow World\nHappy New Year 2021\n");
     println!("{0}, This is {1}", "Satya", "Hari");
