@@ -3,6 +3,7 @@ use std::mem;
 fn main() {
     let  a = "satya";
     println!("a = {}", a);
+    println!("a = {a}");
     println!("a = {} and size is {}", a, mem::size_of_val(&a));
     //a = 23; // error
     /* But above imutable value a if i use againg let a = 23 it ll work */
@@ -55,6 +56,9 @@ fn main() {
     println!("All tuple single state: {:?}", x); // Single statment to print all tuple element. NOTE: Big tuple ll not print
     let tup_s = (1u8, 2i32); // This is new type define
     println!("tup  {}", tup_s.0);
+
+    let (m,n) = tup_s;//This is called destructuring
+    println!("m = {m} and n = {n}");
     
     let tuple_of_tuples = ((1u8, 2u16, 2u32), (4u64, -1i8), -2i16);
     println!("long tup {:?}", tuple_of_tuples);
