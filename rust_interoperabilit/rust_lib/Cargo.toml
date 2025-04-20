@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "deviceutilslib",
+    "device-bin", "deviceshared-bin",
+]
+
