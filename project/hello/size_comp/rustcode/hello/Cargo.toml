@@ -1,0 +1,8 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+description = "A simple Rust project"
+repository = "https://github.com/your_username/hello"
+
+[dependencies]
