@@ -1,7 +1,7 @@
 # rust-practice
 This is use for implement different types of rust program
 
-cargo build -v ==> to see the log
+cargo build -v ==> to see the log file
 
 xxd satya.db  ===> print file value in hexdump
 
